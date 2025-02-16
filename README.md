@@ -6,3 +6,13 @@ keywords: {Philosophical considerations;Navigation;Organizations;Encyclopedias;B
 ```
 
 This repository containts scripts for collecting the data we used to build our HoT. 
+
+we gather pages from the following philosophy subcategories:
+<ol>
+  <li>Category:Philosophers_by_field</li>
+  <li>Category:Philosophical_schools_and_traditions</li>
+  <li>Category:Philosophical_concepts</li>
+  <li>Category:Branches_of_philosophy</li>
+</ol>
+
+We additionally collect the pages belonging to subcategories of the above listed categories, but do not continue this recursion past one step. The result is a dataset containing 2933 pages. 
